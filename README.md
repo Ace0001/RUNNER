@@ -32,5 +32,5 @@ For easier comparison, we select hyper-parameters for each method to enable the 
 The learning rate for the adversary is 1e-4.
 
 ## Other Parameters for FairNeuron
-We follow FairNeuron to conduct a comparison experiment of these hyperparameters. 𝜃 varies between the interval [10−4, 1] and 𝛾 varies between the interval [0.5, 1]. Note that we use logarithmic coordinates for 𝜃 since its value is sampled proportionally.
+We follow FairNeuron to conduct a comparison experiment of these hyperparameters. 𝜃 varies between the interval [1e-4, 1] and 𝛾 varies between the interval [0.5, 1]. Note that we use logarithmic coordinates for 𝜃 since its value is sampled proportionally.
 
