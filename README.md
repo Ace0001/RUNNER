@@ -17,7 +17,7 @@ python main.py --method NeuronImportance_GapReg --mode eo --lam 5 --neuron_ratio
 ```
 
 ## Implementations
-The hidden size of MLP is 200. We use Adam as the learning optimizer and the batch size is set to 1000 for the $\Delta$ DP metric and 2000 for the $\Delta$ EO metric. The learning rate is set as 0.001. We use Adam as the learning optimizer and the batch size is set as 64 for the $\Delta$DP metric and 128 for the $\Delta$EO metric. The learning rate is set as 0.0001.
+The hidden size of MLP is 200. We use Adam as the learning optimizer and the batch size is set to 1000 for the $\Delta$ DP metric and 2000 for the $\Delta$ EO metric. The learning rate is set as 0.001. We use Adam as the learning optimizer and the batch size is set as 64 for the $\Delta$ DP metric and 128 for the $\Delta$ EO metric. The learning rate is set as 0.0001.
 To ensure convergence, on the tabular datasets, for the Vanilla, Oversample, Reweighing, RUNNER, FairSmote, and ROC methods, we train 5 epochs. For the FairNeuron method, we train 10 epochs to ensure convergence. And for the adversarial method, we follow previous work and we train 15 epochs. For the image datasets, we train Vanilla, Oversample, and RUNNER for 10 epochs and train the adversarial method for 20 epochs.
 
 ## Other Parameters for RUNNER
