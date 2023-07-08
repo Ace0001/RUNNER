@@ -30,7 +30,7 @@ For easier comparison, we select hyper-parameters for each method to enable the 
 
 Different from Vanilla, Oversample, Reweighing, and FairSmote, other methods rely on hyper-parameters setting. We introduce the hyper-parameter settings as following:
 ## Other Parameters for Adversarial
-The learning rate for the adversary is 1e-4. The training loss is L = L_{cls} + $\lambda$ L_{adv}. The $\lambda$ is set as 0.5. 
+The learning rate for the adversary is 1e-4. The training loss is L = $L_{cls}$ + $\lambda$ $L_{adv}$. The $\lambda$ is set as 0.5. 
 
 ## Other Parameters for FairNeuron
 We follow FairNeuron to conduct a comparison experiment of these hyperparameters. 𝜃 varies between the interval [1e-4, 1] and 𝛾 varies between the interval [0.5, 1]. Note that we use logarithmic coordinates for 𝜃 since its value is sampled proportionally.
