@@ -28,7 +28,7 @@ For easier comparison, we select hyper-parameters for each method to enable the 
 | EO   | 10%   | 5%     | 5%     | 5%   | 50%           | 5%                  |
 | DP   | 10%   | 5%     | 5%     | 5%   | 20%           | 5%                  |
 
-Different from Vanilla, Oversample, Reweighing, and FairSmote, other methods rely on hyper-parameters setting. We introduce the hyper-parameter settings as following:
+Different from Vanilla, Oversample, Reweighing, and FairSmote, other methods rely on hyper-parameters setting. We introduce the hyper-parameter settings as follows:
 ## Other Parameters for Adversarial
 The learning rate for the adversary is 1e-4. The training loss is L = $L_{cls}$ + $\lambda$ $L_{adv}$. The $\lambda$ is set as 0.5. 
 
