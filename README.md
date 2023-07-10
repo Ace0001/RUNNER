@@ -21,7 +21,7 @@ The hidden size of MLP is 200. We use Adam as the learning optimizer and the bat
 To ensure convergence, on the tabular datasets, for the Vanilla, Oversample, Reweighing, RUNNER, FairSmote, and ROC methods, we train 5 epochs. For the FairNeuron method, we train 10 epochs to ensure convergence. And for the adversarial method, we follow previous work and we train 15 epochs. For the image datasets, we train Vanilla, Oversample, and RUNNER for 10 epochs and train the adversarial method for 20 epochs.
 
 ## Other Parameters for RUNNER
-For easier comparison, we select hyper-parameters for each method to enable the trained models to have relatively close AP values. For our method RUNNER, we set the hyper-parameter k as follows:
+For easier comparison, we select hyper-parameters for each method to enable the trained models to have relatively close AP values. For example, to achieve this purpose, the $\lambda$ is set as 1.0 and 0.4 for the $\Delta$ EO and $\Delta$ DP on the Adult dataset. For our method RUNNER, we set the hyper-parameter k as follows:
 
 |      | Adult | COMPAS | Credit | LSAC | CelebA (wavy) | CelebA (attractive) |
 | ---- | ----- | ------ | ------ | ---- | ------------- | ------------------- |
