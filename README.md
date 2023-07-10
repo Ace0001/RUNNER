@@ -25,8 +25,8 @@ For easier comparison, we select hyper-parameters for each method to enable the 
 
 |      | Adult | COMPAS | Credit | LSAC | CelebA (wavy) | CelebA (attractive) |
 | ---- | ----- | ------ | ------ | ---- | ------------- | ------------------- |
-| EO   | 10%   | 5%     | 5%     | 5%   | 50%           | 5%                  |
-| DP   | 10%   | 5%     | 5%     | 5%   | 20%           | 5%                  |
+| DP   | 50%   | 5%     | 5%     | 5%   | 20%           | 5%                  |
+| EO   | 50%   | 5%     | 5%     | 5%   | 50%           | 20%                  |
 
 Different from Vanilla, Oversample, Reweighing, and FairSmote, other methods rely on hyper-parameters setting. We introduce the hyper-parameter settings as follows:
 ## Other Parameters for Adversarial
